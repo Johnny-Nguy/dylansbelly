@@ -1,0 +1,11 @@
+import random
+
+dylansweight = 500
+
+randpersonweight = random.randint(100, 600)
+
+if dylansweight > randpersonweight:
+    print("no surprise")
+else:
+    print("aint no way")
+    print("new champion is", randpersonweight, "lbs")
